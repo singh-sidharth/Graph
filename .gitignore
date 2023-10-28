@@ -1,1 +1,6 @@
 .vscode/settings.json
+target/classes/com/graph/Main.class
+target/classes/com/graph/structures/Edge.class
+target/classes/com/graph/structures/Graph.class
+target/classes/com/graph/structures/Vertex.class
+target/test-classes/com/graph/GraphTest.class
