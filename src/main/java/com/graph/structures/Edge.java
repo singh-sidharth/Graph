@@ -1,12 +1,12 @@
 package com.graph.structures;
 
 public class Edge {
-    
+
     private Vertex start;
     private Vertex end;
-    private Integer weight; //allows passing in 'null'
+    private Integer weight; // allows passing in 'null'
 
-    public Edge(Vertex startV, Vertex endV, Integer inputWeight){
+    public Edge(Vertex startV, Vertex endV, Integer inputWeight) {
         this.start = startV;
         this.end = endV;
         this.weight = inputWeight;
@@ -23,8 +23,8 @@ public class Edge {
     public Integer getWeight() {
         return weight;
     }
-    
-    public String toString(){
-        return "(" + start.getData() + ", " + end.getData() + "; "+ weight +")";
+
+    public String toString() {
+        return "(" + start.getData() + ", " + end.getData() + "; " + weight + ")";
     }
 }
