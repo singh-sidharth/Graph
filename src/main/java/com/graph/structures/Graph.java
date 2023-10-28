@@ -69,7 +69,8 @@ public class Graph {
 
     public void print(){
         for(Vertex v:this.vertices){
-            v.print(this.isWeighted);
+            v.print(this.isWeighted);        
         }
+        
     }
 }

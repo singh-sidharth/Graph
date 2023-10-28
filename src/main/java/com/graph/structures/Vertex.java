@@ -33,16 +33,15 @@ public class Vertex {
 
     public void print(boolean showWeight){
         StringBuilder message = new StringBuilder("");
-        message.append(data);
 
         if(this.edges.isEmpty()) {
-            System.out.println(this.data + " -->");
+            System.out.println(this.data + " --> EMPTY");
             return;
         }
-
+        
         message.append(this.data + " --> ");
 
-        for (int i = 0; i<this.edges.size(); ++i){
+        for (int i = 0; i<this.edges.size(); ++i){                
 
             message.append(this.edges.get(i).getEnd().getData());
 
